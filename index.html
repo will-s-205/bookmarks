@@ -1,14 +1,24 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <input type="text" id="input-el">
-        <button id="input-btn">SAVE INPUT</button>
+
+<head>
+    <title>Bookmarks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="124x125" href="./icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <img class='bookmark-icon' src='./icon.png' alt="bookmark icon">
+    <input type="text" id="input-el">
+    <div class="btn-row">
+        <button id="input-btn">SAVE</button>
         <button id="tab-btn">SAVE TAB</button>
         <button id="delete-btn">DELETE ALL</button>
-        <ul id="ul-el">
-        </ul>
-        <script src="index.js"></script>
-    </body>
+    </div>
+    <ul id="ul-el">
+    </ul>
+    <script src="index.js"></script>
+</body>
+
 </html>
