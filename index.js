@@ -39,7 +39,7 @@ function render(link) {
     for (let i = 0; i < link.length; i++) {
         listItems += `
             <li>
-                <a target='_blank' href='${link[i]}'>
+                <a class='item' target='_blank' href='${link[i]}'>
                     ${link[i]}
                 </a>
             </li>
