@@ -20,7 +20,6 @@ if (bookmarksFromLocalStorage) {
 tabBtn.addEventListener("click", function () {
     if (typeof chrome !== "undefined" && typeof chrome.runtime !== "undefined") {
         // Code is running in a Chrome extension
-        console.log("Running inside a Chrome extension!");
         chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
             myBookmarks.push(tabs[0].url)
             localStorage.setItem("myBookmarks", JSON.stringify(myBookmarks))
@@ -28,7 +27,6 @@ tabBtn.addEventListener("click", function () {
         })
     } else {
         // Code is running in a regular web page
-        console.log("Not running inside a Chrome extension.");
         myBookmarks.push(window.location.href)
         localStorage.setItem("myBookmarks", JSON.stringify(myBookmarks))
         render(myBookmarks)
