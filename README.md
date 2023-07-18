@@ -1,6 +1,6 @@
 # Bookmarks
 ### Click project live below:
-[![Bookmarks](https://raw.githubusercontent.com/will-s-205/will-s-205.github.io/main/fcc-portfolio/img/2023-07-17%20Bookmarks.png)](https://will-s-205.github.io/bookmarks)
+[![Bookmarks](https://raw.githubusercontent.com/will-s-205/will-s-205.github.io/main/fcc-portfolio/img/2023-07-17%20Bookmarks.png)](https://chrome.google.com/webstore/detail/bookmarks/iggalpelkkahkcpijehejnmhbhkkgeai)
 
 Simple Chrome extension helping to sales representatives and other users to manage their temporary bookmark activity during the day. Application is easy to use and understand. JS adding/removing bookmarks/links in the DOM and using localStorage to keep track of it.
 ## Goal
